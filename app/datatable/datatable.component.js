@@ -60,7 +60,7 @@ var DatatableComponent = (function () {
     // }
     DatatableComponent.prototype.fetch = function () {
         var _this = this;
-        var url = "http://localhost:8080/restapi/user?" +
+        var url = "http://www.rkumbhare.com/rest/user?" +
             "startIndex=" + this.startIndex +
             "&pageSize=" + this.pageSize;
         if (this.sortColumn && this.sortOrder) {

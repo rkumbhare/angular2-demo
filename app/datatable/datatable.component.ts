@@ -70,7 +70,7 @@ export class DatatableComponent{
 
 
     fetch(): void{
-        let url: string = "http://localhost:8080/restapi/user?" +
+        let url: string = "http://www.rkumbhare.com/rest/user?" +
                         "startIndex=" + this.startIndex + 
                         "&pageSize=" + this.pageSize;
 
