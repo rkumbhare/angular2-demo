@@ -1,0 +1,10 @@
+/target/
+target
+/webapps/
+webapps
+#.settings
+#/.settings/
+/logs/
+logs
+#.project
+#.classpath
